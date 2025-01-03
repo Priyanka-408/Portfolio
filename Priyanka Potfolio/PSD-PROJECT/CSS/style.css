@@ -1,0 +1,277 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background:#303030;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding: 10px 30px;
+    align-items: center;
+}
+.logo{
+    /* border: 2px solid green; */
+}
+.logo img{
+    width: 80px;
+}
+.nav-links i{
+    color: #fff;
+    display: none;
+
+}
+
+.nav-links li{
+    /* border: 2px solid; */
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+   
+}
+.nav-links li a{
+    text-decoration: none;
+     /* border: 1px solid purple; */
+     font-size: 25px;
+     font-family: 'Oswald';
+     color: #fff;
+}
+
+.search-icon{
+    /* border: 2px solid red; */
+    color: #fff;
+    font-size: 20px;
+}
+.banner{
+    background: url(../IMAGES/banner-img-1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 670px;
+}
+.banner-info{
+    /* border: 2px solid crimson; */
+    color: #fff;
+    width: 600px;
+    padding: 100px 0 0 80px;
+}
+.banner-info h1{
+    font-size: 124px;
+    font-family: 'Oswald';
+}
+.banner-info p{
+    font-size: 25px;
+    font-family: 'Montserrat';
+}
+button{
+    border:none;
+   background:#e8631c;
+    padding: 10px 50px;
+    margin-top: 20px;
+}
+button a{
+    /* border: 3px solid; */
+    font-size: 20px;
+    font-family: 'Oswald';
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+   
+}
+.dance-tour-section{
+    background: #e8631c;
+    
+    
+}
+
+.title-para{
+    /* border: 2px solid green; */
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+    
+}
+.title-para h1{
+    font-size: 70px;
+    font-family:'Oswald';
+}
+.title-para p{
+    width: 600px;
+    margin:20px 530px;
+    font-size: 25px;
+}
+.dance-tour-row{
+    /* background: lightgreen; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.dance-tour-card{
+    /* border: 2px solid; */
+    height: 480px;
+    width: 376px;
+    background: #303030;
+    color: #fff;
+    text-align: center;
+}
+.dance-tour-card h3,.pricing-card h3,.statistics-section h3{
+    font-size: 30px;
+    font-family: 'Oswald';
+    padding: 10px 0;
+}
+.dance-tour-card p,.pricing-card p,.statistics-section p{
+    font-size: 22px;
+    font-family: 'Montserrat';
+
+}
+.pricing-section{
+    background: #303030;
+    padding: 30px 0;
+}
+.pricing-row{
+    background:#303030;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pricing-card{
+    background-color: #e8631c;
+    /* border: 2px solid red; */
+    height:450px;
+    width:371px;
+    text-align: center;
+    color: #fff;
+}
+.pricing-card img{
+    padding: 20px 0;
+}
+.pricing-card h3{
+    padding: 25px 0;
+}
+ button{
+    font-size: 25px;
+    font-family: 'Oswald' ;
+    padding: 10px 80px;
+    color: #fff;
+    background-color: #303030;
+}
+
+.dancing-section{
+    background:#e8631c;
+    padding: 40px 0;
+}
+.dance-section-row{
+    /* border: 3px solid red; */
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,700px));
+    justify-content: center;
+    /* gap: 40px; */
+    align-items: center;
+}
+.dance-img{
+    width: 600px;
+    /* border: 3px solid green; */
+}
+.dance-section-info{
+    /* background: coral; */
+    text-align: center;
+}.dance-section-info h1{
+    font-family: 'Oswald';
+}
+.dance-section-info p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+.statistics-section{
+    background:#303030;
+}
+.range-row{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+.range-col{
+    /* border: 4px solid green; */
+    color: #fff;
+    text-align: center;
+
+}
+.range-col span{
+    font-size: 66px;
+    font-family: 'Oswald' ;
+    font-weight: 800;
+}
+.range-col p{
+    font-size: 41px;
+    font-family: 'Montserrat' ;
+}
+.herbert-section{
+   background: url('../IMAGES/dance-pose-img-6.png');
+   background-size: cover;
+   height: 800px;
+   width: 100%;
+   /* border: 2px solid red; */
+
+    
+}
+.margin-set{
+    margin-top: 70px;
+}
+.title-para h3{
+    font-size: 51px;
+    font-family: 'Oswald';
+}
+.subscribe-section{
+    background: #e8631c;
+    margin-top: -10px;
+}
+.btn{
+    /* background-color: cadetblue; */
+    padding-top: 20px;
+}
+.btn input{
+    padding: 12px 100px;
+    margin-bottom: 10px;
+    
+}
+.btn input::placeholder{
+    font-family:'Montserrat'  ;
+}
+.btn a{
+    margin-left: -8px;
+    padding:4px 25px 10px 25px;
+    font-family:  'Oswald';
+    color: #fff;
+    background: #303030;
+    text-decoration: none;
+    font-size: 20px;
+}
+footer{
+    padding: 50px 0;
+    background:#303030;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 30px;
+    color: #fff;
+
+}
+.details p{
+    width: 400px;
+    padding: 10px 0;
+}
+.social-icons{
+    padding-top: 15px;
+}
+.social-icons i{
+    color: #000;
+    padding: 5px 5px;
+    border-radius: 50%;
+    background: #fff;
+}
+footer h3{
+    padding: 10px 0;
+}

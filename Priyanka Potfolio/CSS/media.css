@@ -1,0 +1,60 @@
+@media(max-width:756px){
+    .nav-links{
+        display: none;
+    }
+    .bar{
+        display: block;
+    }
+}
+
+@media(max-width:632px){
+    .title p{
+        padding-left: 0;
+    }
+    .details-about-me{
+        width: 100%;
+    }
+    .resume-section{
+        padding: 50px 0;
+    }
+}
+@media(max-width:605px){
+    .details,.img-card{
+        width: 100%;
+        
+    }
+    
+    .details h2{
+        font-size: 20px;
+    }
+
+}
+@media(max-width:550px){
+    .my-photo{
+        height: 300px;
+        width: 300px;
+    }
+    .my-photo-1{
+        height: 100%;
+        width: 100%;
+    }
+}
+@media(max-width:491px){
+    .btn button{
+        width: 100%;
+        margin-bottom: 10px;
+        padding:10px;
+        margin-left: 0;
+    }
+    .btn button a{
+        font-size: 10px;
+    }
+}
+@media(max-width:286px){
+    #contact-detail{
+        font-size: 20px;
+    }
+    .my-info span{
+        width: 100%;
+    }
+}

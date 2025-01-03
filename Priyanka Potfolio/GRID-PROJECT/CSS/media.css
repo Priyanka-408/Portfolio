@@ -1,0 +1,73 @@
+@media(max-width:1400px){
+    .bar{
+        display: inline-block;
+    }
+    nav{
+        opacity: 0;
+    }
+    .header-section{
+        grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+        padding: 0 8px;
+    }
+    .header-row{
+        display: none;  
+    }
+    .info-toggle{
+        display: block;
+    }
+}
+
+@media(max-width:815px){
+    .member-row{
+        grid-template-columns:repeat(auto-fit,380px);
+        justify-content: space-between;
+        gap: 40px;
+    }
+    .member-img,.member-overlay{
+        width: 380px;
+    }
+    .hospital-details-row{
+        width: 100%;
+    }
+}
+@media(max-width:975px){
+    .patient-form-row{
+        grid-template-columns:repeat(auto-fit,minmax(300px,600px));
+        background: crimson;
+        width: 100%;
+    }
+    
+    .patient-form-container{
+        margin-left: 0;
+    }
+}
+@media(max-width:797px){
+    .sub-title{
+        width: 100%;
+    }
+    .facilities-and-working-hours{
+        width: 100%;
+    }    
+}
+@media(max-width:765px){
+    .content p{
+        width: 100%;
+    }
+    .patient-details{
+        max-width: 400px;
+    }
+    .hospital-details-row{
+        grid-template-columns:repeat(auto-fit,minmax(300px,700px));
+    }
+    .title{
+        padding-left: 10px;
+    }
+}
+@media(max-width:400px){
+    .headline{
+        padding: 30px 0;
+    }
+    .subscribe-info input{
+        width: 100%;
+    }
+}

@@ -1,0 +1,67 @@
+@media(max-width:1574px){
+    .dance-section-info{
+        width: 100%;
+    } 
+}
+
+@media(max-width:1448px){
+     .title-para p{
+        margin:20px 150px;
+    } 
+}
+@media(max-width:768px){
+    .nav-links{
+        display: none;
+    }
+    .nav-links i{
+        display:inline;     
+    }
+}
+@media(max-width:738px){
+    .dance-section-info p{
+        width: 100%;
+    }
+    .banner-info ,.banner-info p ,.title-para p{
+      width: 100%;
+
+    }
+    .title-para p{
+        margin: 20px 0;
+    }
+    .banner{
+        height: 980px;
+    }
+    .dance-img{
+        width: 100%;
+    }
+}
+@media(max-width:380px){
+    .btn input{
+        width: 100%;
+    }
+    .read-btn{
+        padding:0px 20px;
+    
+    }
+    .dance-section-row{
+        padding: 0;
+    }
+    .title-para h1,.dance-section-info h1{
+        font-size: 40px;
+    }
+    .title-para p ,.dance-section-info p{
+        font-size: 20px;
+    }
+    .pricing-card{
+        width: 100%;
+    }
+    button{
+        padding:10px 10px;
+    }
+    .banner-info h1{
+        font-size: 40px;
+    }
+    
+    
+
+}

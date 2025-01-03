@@ -1,0 +1,46 @@
+@media(max-width:1200px){
+    .user-details,.info{
+       width: 100%;
+    }
+    .community-info{
+        position:absolute;
+        top: 50px;
+        left: 0px;
+    }
+    .community-section .posit-1,.posit-2,.posit-3,.posit-4{
+        opacity: 0;
+
+    }
+}
+
+
+@media(max-width:992px){
+    .nav-links{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .community-info{
+        width: 100%;
+        
+    }
+}
+@media(max-width:768px){
+    .info button{
+        margin-top: 10px;
+    }
+
+}
+@media(max-width:368px){
+    .community-info{
+        top: 70px;
+        left:0;
+    }
+    .community-info h3,.contentRow-2-col-2 h3{
+        font-size: 30px;
+    }
+    .info input{
+       margin-left: 0;
+    }
+}

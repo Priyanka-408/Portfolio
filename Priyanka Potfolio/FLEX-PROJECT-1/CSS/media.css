@@ -1,0 +1,41 @@
+@media(max-width:890px){
+    .banner-info ,.newsletter-subscribe,.info-about-newsletter{
+        width: 100%;
+    }
+    .newsletter-subscribe{
+        height: 100vh;
+    }
+    .info-about-newsletter strong{
+        font-size: 40px;
+    }
+    header{
+        justify-content: center;
+        padding: 10px;
+      
+    }
+    .navbar ul{
+        display: none;
+    }
+    .bars{
+        display:block;
+        text-align: center;
+    }
+}
+@media(max-width:700px){
+    .mail-field,input{
+        width: 100%;
+        margin: 0;
+    }
+    .info-about-newsletter{
+        padding-left: 0;
+    }
+}
+@media(max-width:450px){
+    .content{
+        padding-top:30px;
+
+    }
+    .deatils h1{
+        font-size: 40px;
+    }
+}

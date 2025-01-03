@@ -1,0 +1,719 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body * {
+  /* border: 2px solid red; */
+  color: #fff;
+}
+.landing-page {
+  background: url(../IMAGES/dark-hero-1.jpg);
+  padding-bottom: 40px;
+  /* background-size:/cover; */
+  background-attachment: fixed;
+}
+.surgery-logo {
+  text-align: center;
+  /* border: 2px solid; */
+}
+.bar {
+  /* border: 2px solid red; */
+  display: none;
+  margin-right: 30px;
+}
+.bar i {
+  font-size: 40px;
+}
+.header-section {
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  justify-content: center;
+  padding: 20px 30px;
+  align-items: center;
+}
+.header-info i {
+  font-size: 40px;
+  color: #e93535;
+}
+.header-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  /* border: 2px solid blue; */
+}
+.info-toggle {
+  display: none;
+  /* border: 2px solid chartreuse; */
+  text-align: right;
+}
+.info-toggle i {
+  border: 2px solid #0693e3;
+  font-size: 20px;
+  padding: 10px;
+  color: #0693e3;
+}
+.info-toggle .fa-plus {
+  background: #0693e3;
+  color: #fff;
+}
+.header-col {
+  display: grid;
+  grid-template-columns: 80px 220px;
+  /* border: 2px solid; */
+}
+.logo-info .info {
+  color: rgb(154, 152, 152);
+  padding: 5px 0;
+}
+.header-logo i {
+  font-size: 40px;
+  margin-left: 20px;
+  /* border: 2px solid; */
+}
+.logo-info p {
+  font-size: 16px;
+}
+nav {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 600px);
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+}
+nav ul {
+  text-align: center;
+
+}
+
+nav ul li {
+  /* margin-left: 30px; */
+  padding: 10px;
+  list-style: none;
+  display: inline;
+  position: relative;
+}
+nav ul li a {
+  /* border: 2px solid green; */
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Nunito Sans";
+  transition: 0.45s;
+}
+nav ul li a:hover {
+  color: #0693e3;
+}
+.social-links {
+  /* border: 3px solid purple; */
+  text-align: right;
+}
+.social-links i {
+  padding: 10px;
+  color: #0693e3;
+  font-size: 14px;
+}
+.dropdown li {
+  font-size: 15px;
+  display: block;
+  padding:5px;
+}
+.dropdown {
+  /* padding: 0 50px; */
+  border-top: 3px solid #0693e3;
+  background: #444;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  text-align: left;
+  display: none;
+  transition: 1s;
+  width: 230px;
+}
+.dropdown li a {
+  color: #fff;
+  font-size: 13px;
+}
+.dropdown li a i{
+  /* border: 2px solid; */
+  font-size: 10px;
+  padding-right: 10px;
+}
+nav ul li:hover .dropdown {
+  display: block;
+}
+.content {
+  /* border: 3px solid white; */
+  text-align: center;
+  /* padding-top: 100px; */
+  margin-top: 190px;
+}
+.content span {
+  font-size: 60px;
+  color: #fff;
+}
+.content strong {
+  color: #f95759;
+  font-size: 55px;
+}
+.content p {
+  font-size: 25px;
+  /* border: 2px solid blue; */
+  width: 750px;
+  line-height: 30px;
+  margin: 30px auto;
+  font-family: "Barlow Semi";
+}
+.content .btn {
+  /* border: 2px solid crimson; */
+  padding: 20px 0;
+}
+button {
+  border: none;
+}
+.content .btn button {
+  padding: 16px 30px;
+  margin-left: 30px;
+}
+.content .btn button a,
+.sub-btn button a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+}
+.content .btn .btn-bg-1 {
+  background-color: #0693e3;
+  transition: 1s;
+}
+.content .btn .btn-bg-2,
+.sub-btn button {
+  background-color: #f95759;
+  transition: 1s;
+}
+.content.btn .btn-bg-1:hover {
+  background: rgb(61, 61, 66);
+}
+.content .btn .btn-bg-2:hover {
+  background: rgb(254, 45, 45);
+}
+.patient-form-container {
+  /* background: coral; */
+  margin: 40px 0 50px 150px;
+}
+.patient-form-row {
+  padding: 70px 30px;
+  background: #f95759;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  justify-content: center;
+  width: 88%;
+}
+.form-headline {
+  line-height: 55px;
+}
+.form-headline p {
+  font-size: 20px;
+  font-family: "Nunito Sans";
+}
+.user-input-row {
+  text-align: right;
+}
+.user-input-col {
+  margin-bottom: 30px;
+  height: 50px;
+}
+.user-input-col input {
+  padding: 10px 70px;
+  margin-left: 20px;
+  background: #f66b6d;
+  border: none;
+}
+.user-input-col input::placeholder {
+  color: #fff;
+}
+.book-now-btn {
+  margin-top: 20px;
+}
+.hospital-details-row {
+  width: 80%;
+  margin: -40px auto;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 300px);
+}
+.hospital-info {
+  text-align: center;
+  padding: 40px 30px;
+  border: 2px solid;
+  position: relative;
+}
+.hospital-col-1 {
+  background: #318dc2;
+}
+.hospital-col-2 {
+  background: #307da9;
+}
+.hospital-info h3 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.hospital-info p {
+  font-size: 15px;
+  padding-top: 20px;
+  line-height: 25px;
+  text-align: center;
+}
+.hospital-info .btn {
+  padding: 20px 0;
+}
+.read-more-btn {
+  padding: 10px 20px;
+  margin-top: 40px;
+  transition: 0.45s;
+}
+.read-more-btn a,
+.read-more-btn a i {
+  color: #000;
+  text-decoration: none;
+  font-weight: 700;
+}
+.read-more-btn a i {
+  padding-left: 20px;
+  font-size: 10px;
+}
+.read-more-btn:hover {
+  background: #abb8c3;
+}
+.dr-list {
+  margin-top: 50px;
+  border: 2px solid #fff;
+}
+.dr-list a i {
+  font-size: 12px;
+  padding-left: 20px;
+}
+.option li {
+  padding: 10px 0;
+  list-style: none;
+}
+.option li a {
+  text-decoration: none;
+}
+.option-dropdown li {
+  border: 2px solid green;
+  background: #fff;
+}
+.option-dropdown li a {
+  color: #000;
+}
+.option-dropdown {
+  display: none;
+}
+.dr-list:hover .option-dropdown {
+  display: block;
+}
+.medical-services {
+  /* border: 2px solid green; */
+  /* background-color: lightskyblue; */
+  padding: 100px 30px;
+}
+.medical-services .title {
+  font-size: 30px;
+  font-family: "Barlow Semi Condensed";
+}
+.sub-title {
+  color: #000;
+  font-size: 20px;
+  font-family: "Barlow Semi Condensed";
+  padding-top: 20px;
+}
+.medical-service-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 370px);
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 0;
+}
+.MS-inner-row {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  gap: 20px;
+  align-items: center;
+  padding: 40px 0;
+}
+.medical-icon i {
+  font-size: 60px;
+  color: #fc2226;
+}
+.medical-icon-info h4 {
+  font-size: 17px;
+  color: #000;
+  font-weight: 500;
+}
+.medical-icon-info .text {
+  color: #565353;
+}
+.medical-icon-info .text,
+.working-hour-col .working-para {
+  font-size: 14px;
+  padding: 0;
+}
+.working-hour-col {
+  border: 2px solid red;
+  background: #2a83b7;
+  padding-bottom: 20px;
+}
+.working-hour-col * {
+  color: #fff;
+}
+.working-hour-col h2 {
+  padding-top: 10px;
+  font-weight: 500;
+}
+.WR-inner-row {
+  background: lawngreen;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 120px);
+}
+.WR-inner-col {
+  padding: 10px 0;
+  /* border-bottom: 1px solid#fff; */
+  border: 2px solid green;
+}
+.book-btn {
+  border: 2px solid blue;
+  padding: 3px 15px;
+  background: #fc2226;
+  text-align: right;
+}
+.book-btn button {
+  color: #fff;
+  background: none;
+  font-size: 14px;
+}
+.book-btn i {
+  /* border: 2px solid; */
+  padding: 4px;
+  font-size: 13px;
+  margin-left: 3px;
+}
+.working-hour-col .working-para {
+  color: #fff;
+  padding: 20px 0;
+}
+.checkup-btn {
+  text-align: center;
+}
+.checkup-btn button,
+.book-now-btn button {
+  padding: 10px 30px;
+  font-weight: 600;
+  transition: 0.45s;
+}
+.checkup-btn button i {
+  margin-left: 10px;
+  font-size: 10px;
+}
+.our-team-section {
+  padding: 30px 0;
+  background: linear-gradient(to left, #bdbaba, #abb8c3);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 600px));
+  justify-content: space-around;
+}
+.team-info {
+  position: relative;
+}
+.team-info p {
+  padding: 20px 0;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.team-info h1 {
+  font-size: 50px;
+  padding-top: 20px;
+  color: #000;
+  font-family: "Times New Roman", Times, serif;
+}
+.team-info span {
+  color: #f95759;
+}
+.team-info h1::after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background: #0693e3;
+  position: absolute;
+  top: 150px;
+  left: 0;
+}
+.member-row {
+  /* background: palevioletred; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 260px);
+  justify-content: center;
+  gap: 20px;
+}
+.member-col {
+  text-align: center;
+  margin-top: -50px;
+  background: #c6d0d8;
+}
+.member-img {
+  /* border: 3px solid green; */
+  position: relative;
+  overflow: hidden;
+}
+.member-img img {
+  width: 100%;
+}
+.member-overlay,
+.member-img {
+  width: 260px;
+}
+.member-overlay,
+.overlay {
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transition: 0.45s;
+}
+.member-img:hover .member-overlay,
+.medicare-img:hover .overlay {
+  top: 0;
+}
+.member-overlay i {
+  line-height: 260px;
+  font-size: 60px;
+  color: #0693e3;
+}
+.member-info {
+  position: relative;
+  padding: 30px 20px;
+}
+.brain-icon {
+  height: 80px;
+  width: 80px;
+  /* border: 2px solid; */
+  border-radius: 50%;
+  padding-top: 20px;
+  background: #0693e3;
+  position: absolute;
+  top: -45px;
+  left: 40px;
+}
+.brain-icon i {
+  font-size: 35px;
+}
+.member-info p {
+  color: #000;
+  padding: 10px 0;
+  font-size: 15px;
+}
+.member-info h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+.member-info .our-team-btn {
+  margin-top: 20px;
+  padding: 8px 25px;
+  border: 2px solid #0693e3;
+  transition: 0.45s;
+}
+.member-info .our-team-btn a {
+  color: #0693e3;
+  text-decoration: none;
+}
+.member-info .our-team-btn:hover {
+  background: #0693e3;
+  color: #fff;
+}
+.member-info .our-team-btn:hover a {
+  color: #fff;
+}
+.view-team-btn,
+.btn {
+  /* border: 2px solid; */
+  text-align: center;
+  margin-top: 50px;
+}
+.view-team-btn button,
+.btn button,
+.book-now-btn button {
+  padding: 10px 50px;
+  background: #0693e3;
+  color: #fff;
+  font-weight: 700;
+  transition: 0.45s;
+  border: none;
+}
+.view-team-btn button i,
+.btn button i {
+  font-size: 10px;
+  padding-left: 30px;
+}
+.headline {
+  padding: 30px 130px;
+  position: relative;
+}
+.headline h1 {
+  font-size: 60px;
+  color: #000;
+  font-family: "Barlow Semi";
+  font-weight: 500;
+}
+.headline strong {
+  color: #f95759;
+  font-weight: 500;
+}
+.headline p {
+  font-size: 20px;
+  color: #000;
+  padding: 20px 0;
+}
+.medicare-row {
+  padding: 50px 0;
+  /* background: lightblue; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  justify-content: center;
+  gap: 20px;
+}
+.medicare-img {
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.overlay {
+  width: 300px;
+  height: 300px;
+}
+.overlay .search {
+  color: #0693e3;
+  font-size: 50px;
+  padding: 40px;
+}
+.overlay h4 {
+  font-size: 18px;
+}
+.date i,
+span,
+.name i,
+h4 {
+  color: #545151;
+  line-height: 35px;
+  padding: 0 20px;
+}
+.date span,
+.name span {
+  font-family: "Nunito Sans";
+}
+.btn button,
+.checkup-btn button {
+  background: #f95759;
+}
+.btn button:hover,
+.checkup-btn button:hover {
+  background: #fc2226;
+}
+.testimonials-container {
+  padding: 80px 0;
+}
+.title {
+  color: #000;
+  padding-left: 150px;
+}
+.testimonials-row {
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
+  justify-content: center;
+  gap: 40px;
+}
+.testinomials-col * {
+  color: #000;
+}
+.testimonials-row i {
+  font-size: 35px;
+  color: #0693e3;
+}
+.testinomials-col h4 {
+  font-weight: 500;
+  padding: 8px 0;
+}
+footer {
+  padding-top: 50px;
+  background: #0693e3;
+}
+
+.footer-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+  justify-content: space-around;
+  gap: 20px;
+}
+.footer-col {
+  position: relative;
+}
+.footer-col h3::after,
+.hospital-info h3::after {
+  content: "";
+  height: 2px;
+  width: 60px;
+  background: #f95759;
+}
+.footer-col h3::after {
+  position: absolute;
+  top: 65px;
+  left: 30px;
+}
+.social-icons {
+  margin: 20px 0;
+}
+.social-icons i {
+  height: 35px;
+  width: 35px;
+  /* border: 2px solid ; */
+  border-radius: 50%;
+  padding: 8px;
+  color: #000;
+  background: #fff;
+  margin-left: 6px;
+}
+.footer-col {
+  padding: 30px;
+}
+.footer-col h3 {
+  padding-bottom: 20px;
+  font-size: 25px;
+  font-weight: 500;
+}
+.about-us-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 150px);
+  justify-content: space-around;
+}
+.about-us-row ul {
+  line-height: 30px;
+}
+.about-us-row ul li {
+  list-style: none;
+}
+.about-us-row ul li a {
+  text-decoration: none;
+}
+.subscribe-info input {
+  padding: 10px 70px;
+  margin: 15px 0;
+}
+.subscribe-info button {
+  padding: 10px 20px;
+}
+.sub-btn button:hover,
+.book-now-btn button:hover {
+  background: #427a9b;
+}

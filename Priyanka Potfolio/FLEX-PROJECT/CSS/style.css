@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ......main container start....... */
+.container *{
+    background-size: cover;
+    color: #fff;
+}
+.container{
+    background:url(/FLEX-PROJECT/IMAGES/background-img-1.webp);
+    background-size:cover;
+    padding-bottom:15px ;
+}
+/* .......header section start.......... */
+header{
+    border-bottom: 2px solid;
+    padding: 10px 20px;
+}
+.header-top-row{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.search-icon p{
+    display: inline;
+    padding: 8px 20px;
+    border-left: 2px solid;
+}
+.search-icon i{
+    border: 2px solid;
+    padding: 8px 10px;
+}
+.nav-section{
+    /* background: plum; */
+}
+nav{
+    border: 2px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 100px;
+    align-items: center;
+}
+.nav-links{
+    background: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.nav-links li{
+    border: 2px solid red;
+    padding: 6px 20px;
+    list-style: none;
+    border-radius: 18px;
+}
+ li a{
+    text-decoration: none;
+}
+.nav-links li a{
+    text-transform: uppercase;
+}
+.header-cart{
+    border: 2px solid green;
+    padding: 10px 5px;
+    position: relative;
+}
+.header-cart i,.header-cart b{
+    text-align: center;
+    border-radius: 50%;
+}
+.header-cart i{
+    background: #000;
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+}
+.header-cart b{
+    /* border: 2px solid; */
+    height: 25px;
+    width: 25px;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 35px;
+    background: #ee7560;;
+}
+.header-cart i:hover{
+    background: #ee7560;
+}
+/* ...........header section end.......... */
+.content-section{
+    /* background: lightgrey; */
+    padding: 40px 0;
+}
+.caption{
+    border: 3px solid seagreen;
+    text-align: center;
+    margin-top: 30px;
+}
+.caption h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.caption p{
+    padding: 40px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+.caption-btn button{
+     padding: 16px 60px;
+     border-radius: 30px;
+     font-size: 20px;
+}
+.caption-btn button{
+    background: #ee7560;
+}
+.caption-btn button i{
+    margin-left: 20px;
+    transition:1s;
+}
+.caption-btn button:hover i{
+    transform: translateX(20px);
+}
+.small-circle{
+    border: 2px solid rgb(230, 28, 190);
+    text-align: center;
+    padding-top: 150px;
+}
+.small-circle span{
+    display:inline-block;
+    height: 20px;
+    width: 20px;
+    border: 3px solid;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+/* ..........main container end......... */
+
+/* .........cupcake section start....... */
+.cupcake-section{
+    background: paleturquoise;
+    padding: 30px 0;
+}
+.headline{
+    text-align: center;
+    border: 2px solid red;
+    /* line-height: 40px; */
+    position: relative;
+}
+.headline p{
+    font-size:25px;
+    font-family: 'Pacifico';
+    color: #ee7560;
+}
+.headline h2{
+    font-size: 40px;
+    padding: 10px 0;
+}
+.headline h2::before,.headline h2::after{
+    content: "";
+    height: 20px;
+    width: 100px;
+    background: #000;
+    position: absolute;
+    top: 60%;
+}
+.headline h2::before{
+    left:31%;
+}
+.headline h2::after{
+    right:31%;
+
+}
+.product-container{
+    background: lightseagreen;
+}
+.product-row{
+    border: 3px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.product-col{
+    border: 4px solid;
+    text-align: center;
+}
+
+/* .........cupcake section end....... */
+.special-bakery-section{
+    background: greenyellow;
+}
+.bakery-container{
+    background: chocolate;
+}
+.bakery-row{
+    border: 3px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bakery-left{
+    border: 4px solid blue;
+}
+.bakery-left img{
+    display: block;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 5px solid red;
+    margin-bottom: 20px;
+
+}
+.bakery-right{
+    border: 4px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.bakery-img{
+    width: 500px;
+}
+.bakery-info{
+    width: 400px;
+    
+}
+.our-bakery-container{
+    /* background: chartreuse; */
+}
+.our-bakery-row{
+    padding: 70px;
+    background:url(../IMAGES/pattern-1\ background\ of\ baker.png);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 40px;
+}
+.our-bakery-info{
+    width: 400px;
+}
+.baker-col{
+    width: 300px;
+    border: 4px solid red;
+    text-align: center;
+}
+.baker-content{
+    padding: 20px 0;
+}
+.baker-content i{
+    border: 2px solid;
+    margin:20px 10px 0 10px;
+}
+.home-banner{
+    background: sienna;
+}
+.container-section{
+    border: 3px solid green;
+}
+.product-collection{
+    border: 4px solid purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.product-banner{
+    border: 4px solid blue;
+}
+.banner-1{
+    width: 500px;
+}
+.product-banner .top-banner{
+    margin-left: 10px;
+}
+.bottom-banner{
+    margin-top: 20px;
+}
+.brand-logo-section{
+    background: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.brand-logo-section .brand-img{
+    /* border: 2px solid; */
+    width: 130px;
+}
+.brand-img img{
+    width: 100%;
+}
+.map-section{
+    border: 3px solid red;
+    position: relative;
+}
+.map-container iframe{
+    width: 100%;
+}
+.contact-form{
+    background: #29203cbf;
+    border: 3px solid green;
+    max-width: 410px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    text-align: center;
+    padding: 30px 50px 35px;
+    color: #fff;
+}
+.contact-form h3{
+    font-size: 28px;
+}
+.contact-form span,.btm-about-us p{
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 27px;
+    line-height: 25px;
+    display: block;
+    font-family: 'Lato';
+}
+.form-group{
+    /* border: 2px solid red; */
+    margin-bottom: 28px;
+}
+.form-group label{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'Barlow';
+    text-align: left;
+}
+.form-group input{
+    height: 30px;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+
+}
+.form-btn{
+    text-align: center;
+}
+.form-btn button,.form-group #subscribe{
+    padding: 11px 40px 9px;
+    border: none;
+    font-size: 14px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    background: #ee7560;
+    color: #fff;
+    line-height: 25px;
+}
+.form-btn button i{
+    transition: .4s;
+    margin-left: 10px;
+}
+.form-btn button:hover i{
+    transform: translateX(10px);
+}
+.bottom-section{
+    background:#282c2f;
+}
+.bottom-row{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    color: #fff;
+}
+.btm-about-us{
+    border: 2px solid green;
+    width: 500px;
+}
+.btm-about-us .form-group{
+    position: relative;
+    margin: 0 auto;
+}
+.bottom-section .form-group input{
+    height: 40px;
+    padding: 0 30px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #fff;
+    border-radius: 40px;
+    border-color: #3d3c41;
+    background: #3d3c41;
+}
+.btm-about-us .form-group input{
+     width: 60%;
+}
+.btm-about-us .form-group #subscribe{
+    /* border: 2px solid red; */
+    margin-left: -40px;
+    padding: 9px 30px 9px;
+}
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+.footer-row h3{
+    padding-bottom: 20px;
+}
+.footer-row p{
+    line-height: 40px;
+}
+.connect-col i{
+   border: 2px solid;
+   margin-right: 20px;
+}
+.connect-col img{
+    display: block;
+    margin-top: 40px;
+}
