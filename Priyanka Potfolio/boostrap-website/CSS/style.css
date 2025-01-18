@@ -1,0 +1,99 @@
+form .effect-btn{
+    background: #a8d741;
+}
+.content,.view-btn,.tool-row,.print-col button,.card-body button,.action-section,form{
+    background: #a8d741;
+}
+.f-size{
+    font-size: 40px;
+    /* border: 2px solid; */
+}
+.product-icon i{
+    font-size: 70px;
+    color: #a8d741;
+   
+}
+button i{
+    font-size: 14px;
+    color: #a8d741;
+}
+.buy-view-btn{
+    background: transparent;
+}
+.tool-img{
+      height: 300px;
+      width: 400px;
+    /* border: 3px solid; */
+   }
+.tool-img img{
+   height: 100%;
+}
+
+.print-row,.card,.tool-col,button{
+    transition: 0.45s;
+
+}
+.print-row:hover,.card:hover,.tool-col:hover,button:hover{
+    transform: rotate(-3deg);
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+   
+}
+.effect-btn{
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.effect-btn:hover{
+    background:#fff;
+    color: #000;
+    border: 2px solid;
+}
+.print-col{
+    width: 450px;
+
+}
+.print-col img{
+    width: 100%;
+}
+.print-col h1{
+    font-size: 80px;
+    font-weight: 400;
+}
+.our-team-row{
+    background: #a8d741;
+    padding: 30px 0;
+}
+.team-img{
+    height: 400px;
+}
+.team-img img{
+    height: 100%;
+}
+.text h1{
+    font-size: 60px;
+}
+.box{
+    /* width: 70%; */
+    position: relative;
+}
+.play-icon i{
+    /* border: 2px solid red; */
+    font-size: 70px;
+    color: #a8d741;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50% -50%);
+
+}
+.logo-img{
+    width: 150px;
+}
+.mail-icon i{
+    font-size:10vw;
+}
+button:hover{
+    background:#fff;
+    transform: scale(1.1);
+}
+
